@@ -11,7 +11,38 @@
 		7A5CB8B229D6E00100DD9C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CB8B129D6E00100DD9C3B /* ContentView.swift */; };
 		7A5CB8B429D6E00400DD9C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5CB8B329D6E00400DD9C3B /* Assets.xcassets */; };
 		7A5CB8B729D6E00400DD9C3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5CB8B629D6E00400DD9C3B /* Preview Assets.xcassets */; };
+		7A86BFF129D7315E0025ACCD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A86BFF029D7315E0025ACCD /* WidgetKit.framework */; };
+		7A86BFF329D7315E0025ACCD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A86BFF229D7315E0025ACCD /* SwiftUI.framework */; };
+		7A86BFF629D7315E0025ACCD /* ParkingSideWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86BFF529D7315E0025ACCD /* ParkingSideWidget.swift */; };
+		7A86BFF929D731600025ACCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A86BFF829D731600025ACCD /* Assets.xcassets */; };
+		7A86BFFB29D731600025ACCD /* ParkingSideWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7A86BFF729D7315E0025ACCD /* ParkingSideWidget.intentdefinition */; };
+		7A86BFFC29D731600025ACCD /* ParkingSideWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7A86BFF729D7315E0025ACCD /* ParkingSideWidget.intentdefinition */; };
+		7A86BFFF29D731600025ACCD /* ParkingSideWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7A86BFEE29D7315E0025ACCD /* ParkingSideWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A86BFFD29D731600025ACCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5CB8A429D6E00100DD9C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A86BFED29D7315E0025ACCD;
+			remoteInfo = ParkingSideWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A86C00329D731600025ACCD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7A86BFFF29D731600025ACCD /* ParkingSideWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7A5CB8AC29D6E00100DD9C3B /* ParkingSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +50,13 @@
 		7A5CB8B129D6E00100DD9C3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A5CB8B329D6E00400DD9C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5CB8B629D6E00400DD9C3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A86BFEE29D7315E0025ACCD /* ParkingSideWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ParkingSideWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A86BFF029D7315E0025ACCD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7A86BFF229D7315E0025ACCD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7A86BFF529D7315E0025ACCD /* ParkingSideWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSideWidget.swift; sourceTree = "<group>"; };
+		7A86BFF729D7315E0025ACCD /* ParkingSideWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ParkingSideWidget.intentdefinition; sourceTree = "<group>"; };
+		7A86BFF829D731600025ACCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A86BFFA29D731600025ACCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A86BFEB29D7315E0025ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86BFF329D7315E0025ACCD /* SwiftUI.framework in Frameworks */,
+				7A86BFF129D7315E0025ACCD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				7A5CB8AE29D6E00100DD9C3B /* ParkingSide */,
+				7A86BFF429D7315E0025ACCD /* ParkingSideWidget */,
+				7A86BFEF29D7315E0025ACCD /* Frameworks */,
 				7A5CB8AD29D6E00100DD9C3B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				7A5CB8AC29D6E00100DD9C3B /* ParkingSide.app */,
+				7A86BFEE29D7315E0025ACCD /* ParkingSideWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +117,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7A86BFEF29D7315E0025ACCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A86BFF029D7315E0025ACCD /* WidgetKit.framework */,
+				7A86BFF229D7315E0025ACCD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A86BFF429D7315E0025ACCD /* ParkingSideWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7A86BFF529D7315E0025ACCD /* ParkingSideWidget.swift */,
+				7A86BFF729D7315E0025ACCD /* ParkingSideWidget.intentdefinition */,
+				7A86BFF829D731600025ACCD /* Assets.xcassets */,
+				7A86BFFA29D731600025ACCD /* Info.plist */,
+			);
+			path = ParkingSideWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +147,34 @@
 				7A5CB8A829D6E00100DD9C3B /* Sources */,
 				7A5CB8A929D6E00100DD9C3B /* Frameworks */,
 				7A5CB8AA29D6E00100DD9C3B /* Resources */,
+				7A86C00329D731600025ACCD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7A86BFFE29D731600025ACCD /* PBXTargetDependency */,
 			);
 			name = ParkingSide;
 			productName = ParkingSide;
 			productReference = 7A5CB8AC29D6E00100DD9C3B /* ParkingSide.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7A86BFED29D7315E0025ACCD /* ParkingSideWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A86C00029D731600025ACCD /* Build configuration list for PBXNativeTarget "ParkingSideWidgetExtension" */;
+			buildPhases = (
+				7A86BFEA29D7315E0025ACCD /* Sources */,
+				7A86BFEB29D7315E0025ACCD /* Frameworks */,
+				7A86BFEC29D7315E0025ACCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingSideWidgetExtension;
+			productName = ParkingSideWidgetExtension;
+			productReference = 7A86BFEE29D7315E0025ACCD /* ParkingSideWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +187,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					7A5CB8AB29D6E00100DD9C3B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7A86BFED29D7315E0025ACCD = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -116,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				7A5CB8AB29D6E00100DD9C3B /* ParkingSide */,
+				7A86BFED29D7315E0025ACCD /* ParkingSideWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +223,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A86BFEC29D7315E0025ACCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86BFF929D731600025ACCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +238,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A86BFFC29D731600025ACCD /* ParkingSideWidget.intentdefinition in Sources */,
 				7A5CB8B229D6E00100DD9C3B /* ContentView.swift in Sources */,
 				7A5CB8B029D6E00100DD9C3B /* ParkingSideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A86BFEA29D7315E0025ACCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86BFFB29D731600025ACCD /* ParkingSideWidget.intentdefinition in Sources */,
+				7A86BFF629D7315E0025ACCD /* ParkingSideWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A86BFFE29D731600025ACCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A86BFED29D7315E0025ACCD /* ParkingSideWidgetExtension */;
+			targetProxy = 7A86BFFD29D731600025ACCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7A5CB8B829D6E00400DD9C3B /* Debug */ = {
@@ -262,11 +381,13 @@
 		7A5CB8BB29D6E00400DD9C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ParkingSide/Preview Content\"";
+				DEVELOPMENT_TEAM = VK3KF344KK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -290,11 +411,13 @@
 		7A5CB8BC29D6E00400DD9C3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ParkingSide/Preview Content\"";
+				DEVELOPMENT_TEAM = VK3KF344KK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,6 +432,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Lexankh.ParkingSide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A86C00129D731600025ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK3KF344KK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkingSideWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ParkingSideWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lexankh.ParkingSide.ParkingSideWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A86C00229D731600025ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK3KF344KK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParkingSideWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ParkingSideWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lexankh.ParkingSide.ParkingSideWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +509,15 @@
 			buildConfigurations = (
 				7A5CB8BB29D6E00400DD9C3B /* Debug */,
 				7A5CB8BC29D6E00400DD9C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A86C00029D731600025ACCD /* Build configuration list for PBXNativeTarget "ParkingSideWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A86C00129D731600025ACCD /* Debug */,
+				7A86C00229D731600025ACCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
